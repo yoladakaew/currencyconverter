@@ -1,0 +1,190 @@
+@font-face {
+font-family: 'rsubold';
+    src: url(../font/rsu_bold-webfont.woff2) format('woff2'),
+         url(../font/rsu_bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rsulight';
+    src: url(../fontrsu_light-webfont.woff2) format('woff2'),
+         url(../fontrsu_light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rsuregular';
+    src: url(../fontrsu_regular-webfont.woff2) format('woff2'),
+         url(../font/rsu_regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontawesomeregular';
+    src: url('../font/fontawesome-webfont.eot');
+    src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fontawesome-webfont.woff2') format('woff2'),
+         url('../font/fontawesome-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+select{
+	list-style: none;
+}
+
+ul a{
+	text-decoration: none;
+}
+
+
+
+nav ul {
+    list-style:none;
+}
+
+
+html,body,div,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+}
+body{
+	line-height: 1;
+	font-size: 14px;
+	font-family:rsuregular;
+	background: #c9dbeb;
+
+}
+
+
+a:link,a:hover,a:active,a:visited{text-decoration:none;}
+
+/*-----------------------------------------------------------------------*/
+
+/*.wrapper{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	background: red;
+}*/
+
+.box{
+	width: 890px;
+	height: 680px;
+	margin: 50px auto 50px auto;
+	background: #f9f9f9;
+	box-shadow: 1px 1px 50px #a6b4c2;
+}
+
+.title-content{
+	float: left;
+	padding-left: 50px;
+	padding-top: 90px;
+	width: 45%;
+	
+}
+
+h2{
+	font-weight: bold;
+	font-size: 72px;
+	color: #2a2a2a;
+	letter-spacing: 5px;
+}
+
+h3{
+	font-weight: lighter;
+	font-size: 36px;
+	color: #2a2a2a;
+	letter-spacing: 5px;
+}
+
+.cal-box{
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-top: 80px;
+	padding-left: 50px;
+	font-size: 18px;
+	font-family:rsuregular;
+	letter-spacing: 2px;
+
+}
+
+.pic{
+	background-image: url(../img/coin-img.png);
+	width: 375px;
+	height: 680px;
+	float: right;
+}
+
+input[type=text] {
+	font-family:rsuregular;
+	width: 425px;
+	height: 45px;
+	background: #e8e7ef;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: none;
+	padding-left: 10px;
+
+}
+
+.filter{
+	width: 425px;
+	height: 45px;
+	border: none;
+	background: #e8e7ef;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-left: 10px;
+	font-family:rsuregular;
+
+}
+select{
+	height: 50px;
+}
+
+option:checked{
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+
+input[type=submit]{
+	width: 175px;
+	height: 60px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	background: #3f8cdf;
+	 letter-spacing: 2px;
+	 font-family:rsuregular;
+	 border: none;
+	 margin-top: 70px;
+	 margin-left: 170px;
+}
+
+input[type=submit]:hover{
+	background-color: #3577bd;
+	-webkit-transition: ease-in-out 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    cursor: pointer;
+	
+}
